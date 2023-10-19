@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.servicenow.testcases.TC_001Create_Incident">
+        <methods>
+          <include name="runCreateIncident" invocation-numbers="0"/>
+          <include name="startTestCase"/>
+          <include name="setUpClass"/>
+          <include name="preCondition"/>
+          <include name="setfileName"/>
+          <include name="tearDownClass"/>
+          <include name="startReport"/>
+          <include name="endResult"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.servicenow.testcases.TC_001Create_Incident -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
